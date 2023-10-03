@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Actor&family=BenchNine&family=Exo:wght@400;800&family=Josefin+Sans&family=Mochiy+Pop+One&display=swap');
+
+/*Formateando márgenes y rellenos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/*Estilos para el header de todas las páginas*/
+
+/*Este es el contenedor de todos los elementos que se encuentran dentro del header*/
+header {
+  display: flex;
+  background-color: #9A3B3B;
+  height: 100px;
+  justify-content: space-around;
+  align-items: center;
+  gap: 300px;
+}
+
+header img {
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+}
+
+/*Este es el contenedor de los elementos de la barra de navegación*/
+header nav ul {
+  display: flex;
+  width: auto;
+  list-style: none;
+  background-color: #9A3B3B;
+  justify-content: center;
+  gap: 60px;
+  font-size: 20px;
+  flex-wrap: nowrap;
+  font-family: 'Mochiy Pop One', sans-serif;
+  ;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*Estilos para el main de todas la páginas*/
+
+#Principal {
+  height: auto;
+  background-color: #E2C799;
+}
+
+
+
+
+
+
+
+/*Estilos para Index*/
+
+.seccion-principal {
+  display: flex;
+  background-image: url(../img/Otros/pizza.jpeg);
+  background-size: cover;
+  height: 1000px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inicio-principal {
+  font-family: 'Exo', sans-serif;
+  display: flex;
+  background-color: rgba(217, 217, 217, 0.5);
+  height: 70%;
+  width: 80%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.inicio-principal h1 {
+  font-size: 80px;
+  text-align: center;
+  color: #9A3B3B;
+  text-shadow: -10px 10px 4px #00000097;
+  -webkit-text-stroke: 1px #F2ECBE;
+
+}
+
+.inicio-principal ul {
+  font-size: 45px;
+  font-weight: 800;
+  text-align: center;
+  color: #E2C799;
+  -webkit-text-stroke: 1px #000;
+  text-shadow: -5px 5px 4px #00000097;
+}
+
+#boton {
+  background-color: #D9D9D9;
+  opacity: 55%;
+  height: 70px;
+  width: 165px;
+}
+
+
+.seccion2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  display: flex;
+  height: 1440px;
+  background-color: #E2C799;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.seccion2 h2 {
+  height: 70px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: #9A3B3B;
+}
+
+.seccion2 div {
+  width: 1400px;
+}
+
+.seccion2 div div {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  margin: 35px 0;
+}
+
+.seccion2 div div img {
+  height: 245px;
+  width: 300px;
+  border: 7px solid #000;
+  border-radius: 61px;
+  margin: 0 25px;
+}
+
+.seccion2 div div p {
+  font-family: 'Mochiy Pop One', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 245px;
+  width: 900px;
+  background-color: #C08261;
+  border: 7px solid #000;
+  border-radius: 61px;
+  font-size: 25px;
+  margin: 0 25px;
+}
+
+#seccion2-tartas p {
+  display: flex;
+  order: -1;
+}
+
+
+
+
+
+
+
+
+
+
+/*Estilos para Nosotros*/
+
+.nosotros__main__section img {
+  height: 529px;
+  width: 300px;
+  border-radius: 60px;
+  border: 7px solid #000;
+}
+
+.nosotros__main__section h1 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 40px;
+}
+
+.nosotros__main__section p {
+  color: #9A3B3B;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 32px;
+}
+
+.nosotros__main__Section__div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C08261;
+  border-radius: 60px;
+  border: 7px solid #000;
+
+  padding: 0 40px;
+}
+
+#quienes_somos {
+  width: 900px;
+  height: 529px;
+}
+
+#nuestra_historia {
+  width: 1260px;
+  height: 668px;
+}
+
+.nosotros__main__Section__div h2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 25px;
+  margin-bottom: 18px;
+  margin-top: 32px;
+}
+
+.nosotros__main__Section__div p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin: 0 28px;
+}
+
+.nosotros__sectionmapa {
+  background-color: #E2C799;
+  width: 100%;
+}
+
+.nosotros__sectionmapa__div {
+  background-color: rgba(0, 0, 0, 0.25);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nosotros__sectionmapa__div h2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 40px;
+  color: #F2ECBE;
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.65);
+  margin-top: 78px;
+}
+
+.nosotros__sectionmapa__div p {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 32px;
+  color: #fff;
+  margin-top: 25px;
+}
+
+.nosotros__sectionmapa__div iframe {
+  border-radius: 60px;
+  border: 7px solid #000;
+  margin-bottom: 88px;
+  margin-top: 64px;
+}
+
+
+
+
+/*Estilos para Novedades*/
+
+.novedades__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+
+}
+
+.novedades__main__section1 {
+  background-color: #F2ECBE;
+  padding: 42px 50px;
+  margin-top: 60px;
+  width: 70%;
+}
+
+.novedades__main__section1 h1 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 40px;
+  color: #9A3B3B;
+  text-align: center;
+}
+
+.novedades__main__section2 div {
+  background-color: #F2ECBE;
+  line-height: 25px;
+  padding: 40px 35px;
+  margin-bottom: 140px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+.novedades__main__section2 {
+  width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+/*Estilos para Promociones*/
+
+#Promociones {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px 6fr 6fr 9fr 2fr;
+  grid-template-areas:
+    "header"
+    "main"
+    "section1"
+    "section2"
+    "footer";
+}
+
+.promociones__header {
+  grid-area: header;
+}
+
+.promociones__main {
+  grid-area: main;
+  background-color: #F2ECBE;
+
+}
+
+.promociones__section1 {
+  grid-area: section1;
+  background-color: #E2C799;
+}
+
+.promociones__section2 {
+  grid-area: section2;
+  background-color: #E2C799;
+}
+
+.promociones__footer {
+  grid-area: footer;
+}
+
+.promociones__main h1 {
+  font-family: 'Mochiy Pop One',
+    sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 53px;
+}
+
+.promociones__main section {
+  display: flex;
+  margin: 40px 72px;
+}
+
+.promociones__main section div h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.promociones__main section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 15px;
+  background-color: #C08261;
+}
+
+.promociones__main section div article {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.promociones__main section div img {
+  width: 585px;
+  height: 613px;
+  object-fit: cover;
+}
+
+.promociones__section2 div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.57);
+}
+
+
+
+
+
+
+
+
+
+/*Estilos para el footer*/
+footer {
+  background-color: #9A3B3B;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+footer .footer-info {
+  background-color: #9A3B3B;
+  display: flex;
+  height: 320px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+}
+
+.footer-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info div h3 {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.footer-info div p {
+  font-family: 'Actor', sans-serif;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+.footer-info div div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+}
+
+#logo-instagram {
+  height: 20px;
+  width: 20px;
+}
+
+#logo-facebook {
+  height: 16px;
+  width: 16px;
+}
+
+.footer-logo {
+  height: 60px;
+  width: 70px;
+}
